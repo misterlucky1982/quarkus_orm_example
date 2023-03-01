@@ -1,11 +1,11 @@
-package com.packt.quarkus.chapter5.web;
+package nby.misterlucky.learning.quarkus.web;
 
-import com.packt.quarkus.chapter5.domain.OrderStatus;
-import com.packt.quarkus.chapter5.domain.entity.OrderStatusException;
-import com.packt.quarkus.chapter5.repository.CustomerRepository;
-import com.packt.quarkus.chapter5.repository.OrderRepository;
-import com.packt.quarkus.chapter5.domain.entity.Customer;
-import com.packt.quarkus.chapter5.domain.entity.Order;
+import nby.misterlucky.learning.quarkus.domain.OrderStatus;
+import nby.misterlucky.learning.quarkus.domain.entity.OrderStatusException;
+import nby.misterlucky.learning.quarkus.repository.CustomerRepository;
+import nby.misterlucky.learning.quarkus.repository.OrderRepository;
+import nby.misterlucky.learning.quarkus.domain.entity.Customer;
+import nby.misterlucky.learning.quarkus.domain.entity.Order;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

@@ -1,6 +1,6 @@
-package com.packt.quarkus.chapter5.domain;
+package nby.misterlucky.learning.quarkus.domain;
 
-import com.packt.quarkus.chapter5.domain.entity.OrderStatusException;
+import nby.misterlucky.learning.quarkus.domain.entity.OrderStatusException;
 
 public enum OrderStatus {
 

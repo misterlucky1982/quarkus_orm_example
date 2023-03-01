@@ -1,4 +1,4 @@
-package com.packt.quarkus.chapter5.domain.entity;
+package nby.misterlucky.learning.quarkus.domain.entity;
 
 public class OrderStatusException extends RuntimeException {
     public OrderStatusException(int code) {

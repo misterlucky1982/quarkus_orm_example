@@ -1,6 +1,6 @@
-package com.packt.quarkus.chapter5.util;
+package nby.misterlucky.learning.quarkus.util;
 
-import com.packt.quarkus.chapter5.domain.OrderStatus;
+import nby.misterlucky.learning.quarkus.domain.OrderStatus;
 
 import javax.persistence.AttributeConverter;
 import javax.persistence.Converter;

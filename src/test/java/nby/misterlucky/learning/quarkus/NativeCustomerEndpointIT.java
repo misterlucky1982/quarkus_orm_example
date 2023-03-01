@@ -1,4 +1,4 @@
-package com.packt.quarkus.chapter5;
+package nby.misterlucky.learning.quarkus;
 
 import io.quarkus.test.junit.NativeImageTest;
 

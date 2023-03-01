@@ -1,7 +1,7 @@
-package com.packt.quarkus.chapter5.domain.entity;
+package nby.misterlucky.learning.quarkus.domain.entity;
 
-import com.packt.quarkus.chapter5.domain.OrderStatus;
-import com.packt.quarkus.chapter5.util.OrderStatusConverter;
+import nby.misterlucky.learning.quarkus.domain.OrderStatus;
+import nby.misterlucky.learning.quarkus.util.OrderStatusConverter;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
 import javax.json.bind.annotation.JsonbTransient;

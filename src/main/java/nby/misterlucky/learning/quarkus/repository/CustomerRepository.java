@@ -1,6 +1,6 @@
-package com.packt.quarkus.chapter5.repository;
+package nby.misterlucky.learning.quarkus.repository;
 
-import com.packt.quarkus.chapter5.domain.entity.Customer;
+import nby.misterlucky.learning.quarkus.domain.entity.Customer;
 import io.quarkus.panache.common.Sort;
 
 import javax.enterprise.context.ApplicationScoped;

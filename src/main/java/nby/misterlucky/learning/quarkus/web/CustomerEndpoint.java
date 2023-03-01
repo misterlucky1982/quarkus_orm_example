@@ -1,7 +1,7 @@
-package com.packt.quarkus.chapter5.web;
+package nby.misterlucky.learning.quarkus.web;
 
-import com.packt.quarkus.chapter5.repository.CustomerRepository;
-import com.packt.quarkus.chapter5.domain.entity.Customer;
+import nby.misterlucky.learning.quarkus.repository.CustomerRepository;
+import nby.misterlucky.learning.quarkus.domain.entity.Customer;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

@@ -1,4 +1,4 @@
-package com.packt.quarkus.chapter5.domain;
+package nby.misterlucky.learning.quarkus.domain;
 
 public class CustomerException extends RuntimeException{
 
