@@ -1,6 +1,8 @@
 = Quarkus and Hibernate Panache example
 
 An example application featuring a One-To-Many relation between the table Customer and Orders
+An example of using Fault-Tolerance API
+An example of implementing Heath Checks
 
 == How to run it
 
