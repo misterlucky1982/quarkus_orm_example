@@ -3,6 +3,9 @@ package nby.misterlucky.learning.quarkus.web;
 import nby.misterlucky.learning.quarkus.domain.TestResponseDTO;
 
 import nby.misterlucky.learning.quarkus.service.TestService;
+import org.eclipse.microprofile.openapi.annotations.Operation;
+import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
+import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +17,7 @@ import java.util.concurrent.ExecutionException;
 @Path("test")
 @ApplicationScoped
 @Produces("application/json")
+@Tag(name = "OpenAPI Example", description = "Quarkus Fault Tolerance Example")
 public class TestFaultToleranceEndpoint {
 
     private static final Logger LOGGER = LoggerFactory.getLogger("TestFaultToleranceEndpoint");
@@ -38,6 +42,14 @@ public class TestFaultToleranceEndpoint {
     public TestResponseDTO testAsynchronous(@PathParam("path") String path) throws ExecutionException, InterruptedException {
         LOGGER.info("request received: " + path);
         return testService.getNextResult(path).get();
+    }
+
+    @Operation(operationId = "all", description = "Just for example")
+    @APIResponse(responseCode = "200", description = "Success response")
+    @GET
+    @Path("/success/{path}")
+    public TestResponseDTO successResponse(@PathParam("path") String path) {
+        return new TestResponseDTO("Success response for " + path, true);
     }
 
 }
